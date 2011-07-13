@@ -1,16 +1,3 @@
-/*
- * AOL CONFIDENTIAL INFORMATION
- *
- * $Author: proxas23 $proxas
- * $Date: 2011-07-05 15:10:53 -0400 (Tue, 05 Jul 2011) $07/01/2011
- * $URL: svn+ssh://proxas23@svn.cm.aol.com/advertising/selfservice/selfservice-js/src/main/javascript/selfservice/form/CopyButton.js $
- * $Revision: 214529 $
- *
- * Copyright (c) 2011 AOL Inc.
- *
- * All Rights Reserved.  Unauthorized reproduction, transmission, or
- * distribution of this software is a violation of applicable laws.
- */
 Ext.ns('AOL.form');
 
 /** 
