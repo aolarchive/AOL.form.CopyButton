@@ -1,6 +1,6 @@
 This control allows you to copy a string value to the clipboard on mousedown/click. This utilizes the Zeroclipboard library that can be found here: http://code.google.com/p/zeroclipboard/wiki/Instructions
 
-There are 3 things that you need to know to use this control:
+There are 4 things that you need to know to use this control:
 
 1. Support files 
 
@@ -8,10 +8,33 @@ This control needs the corresponding support files from Zeroclipboard in order t
 
 2. Setting movie path
 
-This path needs to point to the location of "ZeroClipboard.swf", one of the support files described above.
+This path needs to point to the location of "ZeroClipboard.swf", one of the support files described above. You would need to change the path value that's defined in the code. You can find this code inside the function that handles the afterrender event. 
+
+            ex. ZeroClipboard.setMoviePath(YourPath);
 
 3. Initialization
 
-You can initialize this control the same thing that you would 
+You can initialize this control the same way you would initialize any other control. 
 
+           {
+                xtype: 'aol-copybutton',
+                ref: '../../myCopyButton',
+                copyText: 'Copy',
+                width: 50
+            }
 
+           - OR -
+
+            var myCopyButton = new AOL.form.CopyButton({
+                ref: '../../copyLeadbackButton',
+                copyText: 'Copy',
+                width: 50
+            });
+
+4. Defining the string value to copy. 
+
+You would probably need to define this on a certain event.
+
+             ex.   myCopyButton.setValueToCopy("value");        
+
+  
