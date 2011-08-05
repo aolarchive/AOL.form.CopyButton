@@ -1,0 +1,7 @@
+This control allows you to copy a string value to the clipboard on mousedown/click. This utilizes the Zeroclipboard library that can be found here: http://code.google.com/p/zeroclipboard/wiki/Instructions
+
+There are 3 things that you need to know in using this control:
+
+1. Support files 
+
+
